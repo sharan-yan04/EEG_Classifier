@@ -60,32 +60,32 @@ The Gradio interface supports pre-staged test sample evaluation and manual EEG t
 ### Left Hand Predictions
 
 Correct classifications:
-![Left Hand Prediction 1](screenshots/Left-1.png)
-![Left Hand Prediction 2](screenshots/Left-2.png)
+![Left Hand Prediction 1](figures/Left-1.png)
+![Left Hand Prediction 2](figures/Left-2.png)
 
 Incorrect classification (misclassified as Rest):
-![Left Hand Incorrect](screenshots/Left-Inc.png)
+![Left Hand Incorrect](figures/Left-Inc.png)
 
 ### Right Hand Predictions
 
 Correct classifications:
-![Right Hand Prediction 1](screenshots/Right-1.png)
-![Right Hand Prediction 2](screenshots/Right-2.png)
+![Right Hand Prediction 1](figures/Right-1.png)
+![Right Hand Prediction 2](figures/Right-2.png)
 
 Incorrect classification (misclassified as Rest):
-![Right Hand Incorrect](screenshots/Right-Inc.png)
+![Right Hand Incorrect](figures/Right-Inc.png)
 
 ### Rest Predictions
 
 Correct classifications:
-![Rest Prediction 1](screenshots/Rest-1.png)
-![Rest Prediction 2](screenshots/Rest-2.png)
+![Rest Prediction 1](figures/Rest-1.png)
+![Rest Prediction 2](figures/Rest-2.png)
 
 Incorrect classification:
-![Rest Incorrect](screenshots/Rest-Inc.png)
+![Rest Incorrect](figures/Rest-Inc.png)
 ### Manual EEG Input Tab
 
-![Manual Input](screenshots/gradio_manual_input.png)
+![Manual Input](figures/Manual.png)
 
 ### Model Information
 
