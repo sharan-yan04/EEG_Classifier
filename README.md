@@ -75,7 +75,7 @@ Correct classifications:
 ![Left Hand Prediction 1](figures/Left-1.png)
 ![Left Hand Prediction 2](figures/Left-2.png)
 
-Incorrect classification (misclassified as Rest):
+Incorrect classification :
 ![Left Hand Incorrect](figures/Left-Inc.png)
 
 ### Right Hand Predictions
@@ -84,7 +84,7 @@ Correct classifications:
 ![Right Hand Prediction 1](figures/Right-1.png)
 ![Right Hand Prediction 2](figures/Right-2.png)
 
-Incorrect classification (misclassified as Rest):
+Incorrect classification :
 ![Right Hand Incorrect](figures/Right-Inc.png)
 
 ### Rest Predictions
