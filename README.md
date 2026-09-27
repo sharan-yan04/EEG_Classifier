@@ -14,7 +14,7 @@ with feature subset selection by Quantum Genetic Algorithm (QGA).
 
 ## Architecture
 
-![Architecture](figures/architecture.png)
+![Pipeline Architecture](figures/Architecture.png)
 
 **Architecture summary:**
 
@@ -44,9 +44,6 @@ with feature subset selection by Quantum Genetic Algorithm (QGA).
 
 ![Confusion Matrices](figures/confusion_matrices.png)
 
-### QGA Convergence
-
-![QGA Convergence](figures/qga_convergence.png)
 
 ## Novelty
 
@@ -58,10 +55,34 @@ with feature subset selection by Quantum Genetic Algorithm (QGA).
 
 ## Demo
 
-### Random Sample Tab
+The Gradio interface supports pre-staged test sample evaluation and manual EEG trial upload.
 
-![Random Sample](screenshots/gradio_random_sample.png)
+### Left Hand Predictions
 
+Correct classifications:
+![Left Hand Prediction 1](screenshots/Left-1.png)
+![Left Hand Prediction 2](screenshots/Left-2.png)
+
+Incorrect classification (misclassified as Rest):
+![Left Hand Incorrect](screenshots/Left-Inc.png)
+
+### Right Hand Predictions
+
+Correct classifications:
+![Right Hand Prediction 1](screenshots/Right-1.png)
+![Right Hand Prediction 2](screenshots/Right-2.png)
+
+Incorrect classification (misclassified as Rest):
+![Right Hand Incorrect](screenshots/Right-Inc.png)
+
+### Rest Predictions
+
+Correct classifications:
+![Rest Prediction 1](screenshots/Rest-1.png)
+![Rest Prediction 2](screenshots/Rest-2.png)
+
+Incorrect classification:
+![Rest Incorrect](screenshots/Rest-Inc.png)
 ### Manual EEG Input Tab
 
 ![Manual Input](screenshots/gradio_manual_input.png)
