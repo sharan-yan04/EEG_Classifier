@@ -1,0 +1,11 @@
+moabb>=1.7.0
+mne>=1.10.0
+pennylane>=0.45.0
+scikit-learn>=1.6.0
+joblib>=1.4.0
+numpy>=2.0.0
+scipy>=1.14.0
+matplotlib>=3.9.0
+statsmodels>=0.14.0
+gradio>=6.0.0
+pandas>=2.2.0
