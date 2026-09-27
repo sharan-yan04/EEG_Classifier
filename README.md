@@ -102,15 +102,21 @@ Incorrect classification:
 
 ## Installation
 
-### Environment
+### Option 1: Run in Google Colab (Recommended)
 
-- Google Colab (T4 GPU recommended, CPU works)
-- Python 3.13
-- All dependencies listed in `requirements.txt`
+1. Download the notebook from [notebooks/QGA_for_FBCSP_feature_selection_Final.ipynb](notebooks/QGA_for_FBCSP_feature_selection_Final.ipynb)
+2. Go to [Google Colab](https://colab.research.google.com)
+3. Click **File → Upload notebook** and select the downloaded file
+4. When prompted, click **Mount Google Drive**
+5. Run the cells in order: Cell 1 → Cell 2 → ... → Cell 8
+6. Cell 4 (QGA feature selection) takes 4–6 minutes
+7. Cell 8 launches the Gradio demo with a public URL
 
-### Steps
+### Option 2: Run Locally
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/<your-username>/eeg-qga-fbcsp-classifier.git
-   cd eeg-qga-fbcsp-classifier
+   git clone https://github.com/sharan-yan04/EEG_Classifier.git
+   cd EEG_Classifier
+2. Run the cells 
+3. Verify the results and check out our UI
