@@ -25,7 +25,19 @@ with feature subset selection by Quantum Genetic Algorithm (QGA).
 5. **Quantum Genetic Algorithm** determines the optimal subset (new addition to the literature)
 6. Balanced RBF SVM classifier for left hand, right hand, or rest
 
+## Dataset
 
+**PhysioNet EEG Motor Movement/Imagery Dataset (eegmmidb), version 1.0.0**
+
+- URL: https://physionet.org/content/eegmmidb/1.0.0/
+- DOI: https://doi.org/10.13026/C28G6P
+- Accessed via MOABB: `moabb.datasets.PhysionetMI`
+- Subject 1, 3 classes (left hand, right hand, rest)
+- 129 trials, 64 EEG channels, 160 Hz sampling rate
+
+**Citation:**
+
+Schalk, G. (2009). *EEG Motor Movement/Imagery Dataset* (version 1.0.0). PhysioNet. RRID:SCR_007345. https://doi.org/10.13026/C28G6P
 ## Results
 
 | Algorithm | Accuracy on test set | Test Macro-F1 | Cross validation macro-F1 |
@@ -87,9 +99,6 @@ Incorrect classification:
 
 ![Manual Input](figures/Manual.png)
 
-### Model Information
-
-![Model Info](screenshots/gradio_model_info.png)
 
 ## Installation
 
